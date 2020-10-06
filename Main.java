@@ -1,6 +1,7 @@
+import java.util.Scanner;
 /**
- *
- * @author 
+ * The for loop example
+ * @author Graham Ellacott
  */
 public class Main {
 
@@ -9,7 +10,21 @@ public class Main {
    * @param args the command line arguments
    */
   public static void main(String[] args) {
-    // TODO code application logic here
+    //create a count variable
+    int count = 1;
+    //create a while loop to count to 10
+    while(count <= 10){
+      //print the number
+      System.out.println(count);
+      //increase the counter
+      count = count + 1;
+    }
+
+    //do the same with a for loop
+    for(int count2 = 0; count2 < 10; count2++){
+      //print the number
+      System.out.println(count2 + 1);
+    }
     
   }
 }
